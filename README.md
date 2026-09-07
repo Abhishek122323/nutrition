@@ -1,290 +1,220 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>NutriPerformance | Fuel Your Potential</title>
-
-  <link rel="stylesheet" href="style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>Global Banking Made Simple</title>
+  <link rel="stylesheet" href="side.css">
 </head>
-
 <body>
 
-  <!-- NAVBAR -->
+  <!-- Navigation -->
   <header class="navbar">
-    <div class="logo">
-      NUTRI<span>PERFORMANCE</span>
-    </div>
+    <div class="">Global<span>Bank</span></div>
 
     <nav>
+      <a href="#">Home</a>
+      <a href="#accounts">Accounts</a>
+      <a href="#services">Services</a>
       <a href="#about">About</a>
-      <a href="#programs">Programs</a>
-      <a href="#results">Results</a>
       <a href="#contact">Contact</a>
     </nav>
 
-    <a href="#contact" class="nav-btn">Get Started</a>
+    <div class="nav-buttons">
+      <button class="login-btn">Login</button>
+      <button class="signup-btn">Open Account</button>
+    </div>
   </header>
 
-
-  <!-- HERO -->
+  <!-- Hero Section -->
   <section class="hero">
-
     <div class="hero-content">
+      <p class="tagline">BANKING FOR YOUR FUTURE</p>
 
-      <div class="badge">
-        ● SCIENCE-BASED NUTRITION
-      </div>
-
-      <h1>
-        BUILD YOUR BODY.<br>
-        <span>PERFORM AT YOUR BEST.</span>
+      <h1>Simple banking.<br>
+        <span>Smarter living.</span>
       </h1>
 
-      <p>
-        Personalized nutrition strategies designed to help you
-        build muscle, improve performance and transform your body
-        without extreme diets.
+      <p class="hero-text">
+        Manage your money, save for your goals, and enjoy secure
+        banking services designed around you.
       </p>
 
       <div class="hero-buttons">
-        <a href="#contact" class="primary-btn">
-          Start Your Transformation →
-        </a>
-
-        <a href="#programs" class="secondary-btn">
-          Explore Programs
-        </a>
+        <button class="primary-btn">Get Started →</button>
+        <button class="secondary-btn">Explore Services</button>
       </div>
 
       <div class="trust">
         <div>
-          <strong>1000+</strong>
-          <small>Clients Transformed</small>
+          <strong>10M+</strong>
+          <small>Happy Customers</small>
         </div>
-
         <div>
-          <strong>95%</strong>
-          <small>Client Satisfaction</small>
+          <strong>99.9%</strong>
+          <small>Secure Banking</small>
         </div>
-
         <div>
-          <strong>100%</strong>
-          <small>Personalized Plans</small>
+          <strong>24/7</strong>
+          <small>Customer Support</small>
         </div>
-      </div>
-
-    </div>
-
-    <div class="hero-visual">
-      <div class="glow"></div>
-
-      <div class="hero-card">
-        <span>YOUR POTENTIAL</span>
-        <strong>UNLOCKED.</strong>
       </div>
     </div>
 
+    <!-- Banking Card -->
+    <div class="bank-card">
+      <div class="card-top">
+        <span>SECUREBANK</span>
+        <span>◉</span>
+      </div>
+
+      <p class="balance-title">Available Balance</p>
+      <h2>₹2,45,680.50</h2>
+
+      <div class="card-number">
+        **** **** **** 4589
+      </div>
+
+      <div class="card-bottom">
+        <span>DEBIT CARD</span>
+        <span>VALID 12/29</span>
+      </div>
+    </div>
   </section>
 
+  <!-- Accounts -->
+  <section id="accounts" class="section">
+    <div class="section-heading">
+      <p>OUR ACCOUNTS</p>
+      <h2>Banking that works for you</h2>
+    </div>
 
-  <!-- ABOUT -->
-  <section class="about" id="about">
+    <div class="account-grid">
 
-    <div class="section-label">WHY NUTRIPERFORMANCE</div>
+      <div class="account-card">
+        <div class="icon">₹</div>
+        <h3>Savings Account</h3>
+        <p>
+          Grow your savings with competitive interest rates
+          and flexible access to your money.
+        </p>
+        <a href="#">Learn More →</a>
+      </div>
 
-    <h2>
-      Nutrition isn't about<br>
-      <span>eating less.</span>
-    </h2>
+      <div class="account-card featured">
+        <div class="icon">▣</div>
+        <h3>Current Account</h3>
+        <p>
+          Powerful banking solutions for businesses,
+          entrepreneurs, and professionals.
+        </p>
+        <a href="#">Learn More →</a>
+      </div>
 
-    <p class="section-intro">
-      It's about giving your body exactly what it needs to perform,
-      recover and grow.
+      <div class="account-card">
+        <div class="icon">★</div>
+        <h3>Fixed Deposit</h3>
+        <p>
+          Secure your future with guaranteed returns
+          and flexible investment options.
+        </p>
+        <a href="#">Learn More →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <div class="services-content">
+      <p class="section-label">BANKING SERVICES</p>
+      <h2>Everything you need,<br>all in one place.</h2>
+
+      <div class="service-list">
+        <div class="service">
+          <span>01</span>
+          <div>
+            <h3>Mobile Banking</h3>
+            <p>Bank anytime, anywhere from your smartphone.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <span>02</span>
+          <div>
+            <h3>Personal Loans</h3>
+            <p>Flexible loans with simple repayment options.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <span>03</span>
+          <div>
+            <h3>Secure Payments</h3>
+            <p>Make fast and secure payments with confidence.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services-box">
+      <div class="circle">✓</div>
+      <h3>Your security<br>is our priority.</h3>
+      <p>
+        Advanced encryption and 24/7 fraud monitoring
+        help keep your financial information protected.
+      </p>
+      <button>Security Center →</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <p class="section-label">WHY SECUREBANK?</p>
+    <h2>Built around your<br><span>financial goals.</span></h2>
+
+    <p>
+      From everyday banking to long-term investments,
+      we're here to help you make confident financial decisions.
     </p>
 
-    <div class="features">
-
-      <div class="feature">
-        <div class="icon">01</div>
-        <h3>Personalized Nutrition</h3>
-        <p>
-          Your nutrition plan is built around your body,
-          lifestyle, goals and training.
-        </p>
-      </div>
-
-      <div class="feature">
-        <div class="icon">02</div>
-        <h3>Performance Focused</h3>
-        <p>
-          Eat to train harder, recover faster and consistently
-          improve your performance.
-        </p>
-      </div>
-
-      <div class="feature">
-        <div class="icon">03</div>
-        <h3>Sustainable Results</h3>
-        <p>
-          No crash diets. No unnecessary restrictions.
-          Just strategies you can actually maintain.
-        </p>
-      </div>
-
-    </div>
-
+    <button class="primary-btn">Discover SecureBank →</button>
   </section>
 
-
-  <!-- PROGRAMS -->
-  <section class="programs" id="programs">
-
-    <div class="section-label">OUR PROGRAMS</div>
-
-    <h2>
-      Choose your<br>
-      <span>next level.</span>
-    </h2>
-
-    <div class="program-grid">
-
-      <div class="program-card">
-        <span class="program-number">01</span>
-
-        <h3>Lean Muscle</h3>
-
-        <p>
-          Build quality muscle while keeping unnecessary
-          fat gain under control.
-        </p>
-
-        <a href="#contact">Learn More →</a>
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-main">
+      <div>
+        <div class="logo">Secure<span>Bank</span></div>
+        <p>Banking made simple, secure, and smarter.</p>
       </div>
 
-      <div class="program-card featured">
-        <span class="program-number">02</span>
-
-        <h3>Performance</h3>
-
-        <p>
-          Optimize your nutrition, recovery and training
-          to perform at your absolute best.
-        </p>
-
-        <a href="#contact">Learn More →</a>
+      <div>
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">News</a>
       </div>
 
-      <div class="program-card">
-        <span class="program-number">03</span>
-
-        <h3>Fat Loss</h3>
-
-        <p>
-          Lose body fat without sacrificing muscle,
-          strength or your social life.
-        </p>
-
-        <a href="#contact">Learn More →</a>
+      <div>
+        <h4>Support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Security</a>
       </div>
 
-    </div>
-
-  </section>
-
-
-  <!-- RESULTS -->
-  <section class="results" id="results">
-
-    <div class="results-content">
-
-      <div class="section-label">THE DIFFERENCE</div>
-
-      <h2>
-        Stop guessing.<br>
-        <span>Start progressing.</span>
-      </h2>
-
-      <p>
-        Most people don't need another random diet.
-        They need a strategy that works with their body
-        and their lifestyle.
-      </p>
-
-      <a href="#contact" class="primary-btn">
-        Build My Plan →
-      </a>
-
-    </div>
-
-    <div class="stats">
-
-      <div class="stat">
-        <strong>10X</strong>
-        <span>Better Structure</span>
+      <div>
+        <h4>Contact</h4>
+        <p>support@securebank.example</p>
+        <p>1800 123 4567</p>
       </div>
-
-      <div class="stat">
-        <strong>24/7</strong>
-        <span>Accessible Guidance</span>
-      </div>
-
-      <div class="stat">
-        <strong>1:1</strong>
-        <span>Personalized Approach</span>
-      </div>
-
     </div>
 
-  </section>
-
-
-  <!-- CTA -->
-  <section class="cta" id="contact">
-
-    <div class="cta-box">
-
-      <div class="section-label">READY?</div>
-
-      <h2>
-        Your body is capable<br>
-        of <span>more.</span>
-      </h2>
-
-      <p>
-        Stop following generic advice.
-        Start following a plan built for you.
-      </p>
-
-      <a href="#" class="primary-btn">
-        Start Your Transformation →
-      </a>
-
+    <div class="footer-bottom">
+      <p>© 2026 SecureBank. Demo website.</p>
+      <p>Privacy Policy &nbsp; | &nbsp; Terms</p>
     </div>
-
-  </section>
-
-
-  <!-- FOOTER -->
-  <footer>
-
-    <div class="logo">
-      NUTRI<span>PERFORMANCE</span>
-    </div>
-
-    <p>Science-based nutrition. Real-world results.</p>
-
-    <div class="footer-links">
-      <a href="#about">About</a>
-      <a href="#programs">Programs</a>
-      <a href="#contact">Contact</a>
-    </div>
-
   </footer>
 
 </body>
